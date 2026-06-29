@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "olympus",
+  "displayName": "Olympus",
+  "version": "1.0.0",
+  "description": "A coordinated multi-agent family for Claude Code: Zeus orchestrates 13 specialists (plan, critique, ideate, research, build, debug, test, guard runtime + resources, frontend, document, mechanical, git) through a propose -> build -> adversarially-verify -> human-gate loop.",
+  "author": {
+    "name": "Maleen Kidiwela"
+  },
+  "keywords": [
+    "agents",
+    "multi-agent",
+    "orchestration",
+    "subagents",
+    "olympus"
+  ],
+  "license": "MIT"
+}

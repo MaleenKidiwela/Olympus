@@ -1,0 +1,16 @@
+{
+  "name": "olympus",
+  "owner": {
+    "name": "Maleen Kidiwela"
+  },
+  "metadata": {
+    "description": "Olympus — a coordinated multi-agent family for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "olympus",
+      "source": "./plugins/olympus",
+      "description": "The Olympus agent family: an orchestrator (Zeus) plus 13 specialists for planning, adversarial review, ideation, research, building, debugging, testing, runtime/resource guarding, frontend, documentation, mechanical work, and version control."
+    }
+  ]
+}
