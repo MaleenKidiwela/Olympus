@@ -40,6 +40,24 @@ commands.
 
 Updates: `/plugin marketplace update olympus`, then `/plugin install olympus@olympus` again.
 
+## Run it
+
+The plugin ships an `/olympus` command that kicks off the whole team on a goal:
+
+```shell
+/olympus <your goal>
+```
+
+This primes Claude as **Zeus** and runs the family's loop — plan (Athena) → audit (Atlas)
+→ research (Prometheus) / resource-budget (Metis) → build (Hephaestus) + test (Cassandra)
++ watch (Argus) → adversarial verify (Atlas) → document (Calliope) → commit only on your
+approval (Mnemosyne) — stopping at a human gate before anything consequential. (Plugin
+commands are namespaced, so depending on your version the slash may appear as
+`/olympus:olympus`; check the `/` command picker.)
+
+You can also invoke any specialist directly by its `subagent_type` (e.g. `zeus`, `atlas`,
+`apollo`), or just describe a goal and let your session route to Zeus.
+
 Team auto-onboarding: add this to a shared project `.claude/settings.json` so teammates
 are prompted to install on clone:
 
